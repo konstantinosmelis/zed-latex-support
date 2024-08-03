@@ -1,0 +1,13 @@
+[package]
+name = "zed_latex"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+path = "src/latex.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.0.6"

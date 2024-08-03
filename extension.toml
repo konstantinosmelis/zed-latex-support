@@ -1,0 +1,15 @@
+id = "latex"
+name = "Zed LaTeX"
+description = "LaTeX support."
+version = "0.0.1"
+schema_version = 1
+authors = ["Konstantinos Melissaratos <konstantinos@melissaratos.com>"]
+repository = "https://github.com/konstantinosmelis/zed-latex-support"
+
+[language_servers.texlab]
+name = "latex-lsp"
+language = "LaTeX"
+
+[grammars.latex]
+repository = "https://github.com/latex-lsp/tree-sitter-latex"
+commit = "efe5afdbb59b70214e6d70db5197dc945d5b213e"
